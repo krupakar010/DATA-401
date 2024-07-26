@@ -1,0 +1,14 @@
+1. This is a regression task. Because the target variable - per capita income, is a continuous variable.
+2. 
+ False. OLS is not a type of model but an optimization algorithm.
+ False. Even if a model doesn’t meet some assumptions, there are ways to fix this up.
+ False. Estimation refers to the process of determining the coefficients of the features in the training phase. Prediction is to determine the value of the outcome variable using a previously unseen feature value.
+ True.
+3) There are six core assumptions:
+
+The model is correctly specified.
+The error term has a mean of 0 (a consequence of the exogeneity assumption).
+The error term is uncorrelated with the regressors (also a consequence of the exogeneity assumption).
+The error term has constant variance across all observations (in other words, there's homoscedasticity).
+The errors are uncorrelated between observations (in other words, there's no autocorrelation).
+The predictors are linearly independent (in other words, there's no perfect multicollinearity).
